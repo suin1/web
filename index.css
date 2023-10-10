@@ -1,0 +1,183 @@
+@charset "uft-8";
+
+body {
+    height: 4636px; margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* --------------- header --------------- */
+header {
+    background-image: url(./images/visual_default.png) ;
+    height: 50.1563vw;
+    box-sizing: border-box;
+}
+/* ------------ 헤더 바 ------------ */
+header .header-bar {
+    border-bottom: 1px solid white;
+    height: 5.1042vw; width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+header .header-bar .head1 {
+    width: 95%; height: 5.1042vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+/* ------------헤더 바 마우스 이벤트------------ */
+header .header-bar:hover {
+    background-color: white;
+    border-bottom: 1px #c0bfbf solid;
+}
+/* 메인 이미지 */
+header .head1 img {
+    width: 10.4688vw; height: 1.6146vw;
+}
+
+/* 메인 메뉴 공통 */
+header .head1 menu {
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+/* -------- 메인메뉴 가운데 */
+header .head1 .menu1 {
+    font-size: 1.125rem;
+    width: 62.0313vw; height: 5.1042vw;
+    padding-left: 4.1667vw; margin: 0;
+    display: flex;
+    justify-content: center;
+}
+header .head1 .menu1 li {
+    width: 8.5417vw; height: 100%;
+}
+header .head1 menu a {
+    display: flex;
+    align-items: center; height: 100%;
+    text-decoration: none;
+    color: white;
+}
+header .head1 .menu1 a:hover {
+    color: orange;
+}
+
+/* -------- 메인메뉴 오른쪽 */
+header .head1 .menu2 {
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    width: 16.9271vw; height: 1.6146vw; margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+header .head1 .menu2 .sharp {
+    width: 127px;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 3px 5px;
+}
+/* 메인 메뉴 a 공통 */
+header .head1:hover menu a {
+    color: #000;
+}
+/* -------------------- 헤더바 끝 ---------------------- */
+header h2 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+header h2 em {
+    font-weight: bold;
+    font-size: 68px;
+}
+header p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+header .head2 a {
+    width: 100px; height: 100px;
+    font-size: 13px;
+}
+/* --------------- main --------------- */
+main .title1 {
+    text-align: center;
+}
+main .title1 h3 {
+    font-size: 46px;
+    font-family: 'Play', sans-serif;
+    margin: 0; margin-top: 20px;
+}
+main .title1 .before {
+    width: 4px; height: 21px;
+    background-color: orange;
+    transform: skew(-25deg);
+    margin: auto; margin-top: 100px; 
+}
+main .title1 .txt {
+    font-size: 17px;
+    color: #666;
+    margin-top: 10px;
+}
+main .title1 .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+main .title1 .list .box {
+    width: 350px; height: 250px;
+    
+}
+main .title1 .list .one {
+    font-size: 15px;
+}
+main .title1 .list .two {
+    font-size: 20px;
+    color: #022974;
+    margin-bottom: 0;
+}
+main .title1 .list .three {
+    font-size: 16px;
+    margin: 0;
+}
+main .title1 .list strong {
+    font-size: 66px;
+}
+main .title2 {
+    text-align: center;
+}
+main .title2 h3 {
+    font-size: 46px;
+    font-family: 'Play', sans-serif;
+    margin: 0; margin-top: 20px;
+}
+main .title2 .before {
+    width: 4px; height: 21px;
+    background-color: orange;
+    transform: skew(-25deg);
+    margin: auto; margin-top: 100px; 
+}
+main .title2 .txt {
+    font-size: 17px;
+    color: #666;
+    margin-top: 10px;
+}
+main .title2 .txt-box {
+    display: flex;
+}
+main .title2 .txt-box .boxmenu {
+    display: flex;
+    flex-direction: column;
+}
+main .title2 .txt-box .boxmenu ul {
+    list-style: none;
+    padding: 0;
+}
+main .title2 .txt-box .boxmenu ul li {
+    display: inline;
+}
+/* --------------- footer --------------- */
