@@ -149,6 +149,7 @@ main .title1 .list strong {
 }
 main .title2 {
     text-align: center;
+    width: 100%;
 }
 main .title2 h3 {
     font-size: 46px;
@@ -168,6 +169,10 @@ main .title2 .txt {
 }
 main .title2 .txt-box {
     display: flex;
+    background-color: #eee;
+    width: 1000px; height: 590px;
+    align-items: center;
+    justify-content: center;
 }
 main .title2 .txt-box .boxmenu {
     display: flex;
@@ -179,5 +184,63 @@ main .title2 .txt-box .boxmenu ul {
 }
 main .title2 .txt-box .boxmenu ul li {
     display: inline;
+    margin: 15px;
 }
+main .title2 .txt-box .boxmenu ul li a {
+    text-decoration: none;
+    color: #666;
+}
+main .title2 .txt-box .boxmenu ul li a:hover {
+    color: orange;
+}
+main .title2 .bigimg {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+main .title2 .boxmenu h4 {
+    font-size: 35px;
+}
+main .title2 .boxmenu .smallbox {
+    font-size: 15px;
+}
+
+main .title3 {
+    text-align: center;
+}
+main .title3 h3 {
+    font-size: 46px;
+    font-family: 'Play', sans-serif;
+    margin: 0; margin-top: 20px;
+}
+main .title3 .before {
+    width: 4px; height: 21px;
+    background-color: orange;
+    transform: skew(-25deg);
+    margin: auto; margin-top: 100px; 
+}
+
+
+
+
+main .title4 {
+    text-align: center;
+}
+main .title4 h3 {
+    font-size: 46px;
+    font-family: 'Play', sans-serif;
+    margin: 0; margin-top: 20px;
+}
+main .title4 .before {
+    width: 4px; height: 21px;
+    background-color: orange;
+    transform: skew(-25deg);
+    margin: auto; margin-top: 100px; 
+}
+main .title4 .title4-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* --------------- footer --------------- */
